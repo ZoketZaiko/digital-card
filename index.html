@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Digital Card</title>
+    <style>
+        /* Estilo general de la página */
+        body {
+            background-color: #f0f2f5;    /* Fondo gris de toda la ventana */
+            font-family: Arial, sans-serif;
+            text-align: center;           /* Centra todo el texto */
+        }
+
+        /* Estilo de tu Título Principal */
+        h1 {
+            color: #2563eb;               /* Azul */
+            margin-top: 0;                /* Quita espacio extra arriba del nombre */
+        }
+
+        /* Estilo de la Tarjeta (La caja blanca) */
+        .card {
+            background-color: white;      /* Fondo blanco */
+            width: 400px;                 /* Ancho fijo */
+            margin: 50px auto;            /* Centra la tarjeta en la pantalla */
+            padding: 30px;                /* Espacio interior */
+            border-radius: 15px;          /* Bordes redondos */
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Sombra suave */
+        }
+
+        /* Estilo de la Imagen */
+        img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;           /* Círculo */
+            border: 5px solid white;      /* Borde interno */
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Sombra de la foto */
+        }
+
+        /* --- AQUÍ ESTÁ EL FIX PARA LOS PUNTOS --- */
+        ul {
+            list-style-type: none;        /* ¡Adiós puntos! */
+            padding: 0;                   /* Quita el espacio izquierdo */
+        }
+
+        /* Un toque extra para los elementos de la lista */
+        li {
+            margin-bottom: 5px;           /* Separa un poquito cada skill */
+            color: #555;                  /* Color gris oscuro para el texto */
+        }
+
+        /* Estilo del enlace */
+        a {
+            text-decoration: none;        /* Quita el subrayado feo */
+            color: #2563eb;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+
+        <img src="avatar.jpg" alt="My profile photo">
+        <h1>Hello World, I am Roque</h1>
+        <h2> Full Stack Developer in Training</h2>
+        <p>I am learnirg to code and cloud infrastructure. I love technology!</p>
+        <h3> My Skills </h3>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>English (in progress!)</li>
+        </ul>
+        <p>Find me on social media:</p>
+        <a href="https://github.com/ZoketZaiko">My GitHub Profile</a>
+
+    </div>
+</body>
+
+</html>
