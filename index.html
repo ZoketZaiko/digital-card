@@ -56,10 +56,26 @@
             color: #2563eb;
             font-weight: bold;
         }
+
+                /* Definiciones para el Modo Oscuro */
+        .dark-mode {
+            background-color: #121212 !important; /* Fondo negro */
+            color: #e0e0e0; /* Letra blanca/gris claro */
+        }
+        .dark-mode .card {
+            background-color: #1f1f1f !important; /* Tarjeta gris oscuro */
+            box-shadow: none; /* Quitamos la sombra, no se ve en oscuro */
+        }
+        .dark-mode h1 {
+            color: #bb86fc !important; /* Un morado brillante para contrastar */
+        }
+        .dark-mode a {
+            color: #03dac6 !important; /* Un color secundario para enlaces */
+        }
     </style>
 </head>
 
-<body>
+<body id="page-body">
     <div class="card">
 
         <img src="avatar.jpg" alt="My profile photo">
@@ -72,10 +88,15 @@
             <li>CSS</li>
             <li>English (in progress!)</li>
         </ul>
+
+        <button onclick="toggleTheme()">Toggle Theme</button>
+
         <p>Find me on social media:</p>
         <a href="https://github.com/ZoketZaiko">My GitHub Profile</a>
 
     </div>
 </body>
+
+<script src="script.js"></script>
 
 </html>
